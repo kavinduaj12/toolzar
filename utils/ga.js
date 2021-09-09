@@ -1,4 +1,4 @@
-export const GA_TRACKING_CODE = "UA-164785769-4"
+export const GA_TRACKING_CODE = ""
 
 // log the pageview with their URL
 export const pageview = (url) => {
