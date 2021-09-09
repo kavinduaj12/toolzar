@@ -10,9 +10,9 @@ export default function header({ title, subtitle, isHomepage }) {
     <div className={styles.header_home_conatainer}>
       <Head>
         {isHomepage === true ? (
-          <title>ToolZar - All The Tools You'll Need</title>
+          <title>LKHITECH - All The Tools You will Need </title>
         ) : (
-          <title>{`${title} ${subtitle} - ToolZar`}</title>
+          <title>{`${title} ${subtitle} - LKHITECH`}</title>
         )}
       </Head>
 
