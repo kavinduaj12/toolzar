@@ -30,7 +30,7 @@ export default function header({ title, subtitle, isHomepage }) {
         )}
         <div className={styles.header_home_title}>
           <h1 style={isHomepage === false ? { fontSize: "20px" } : {}}>
-            {isHomepage === false ? title : "Toolzar"}
+            {isHomepage === false ? title : "LHM Tools"}
           </h1>
           <p>{isHomepage === false ? subtitle : "All the tools you need."}</p>
         </div>
